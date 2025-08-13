@@ -24,6 +24,8 @@ A computer vision project using Detectron2 for object detection and classificati
 # Clone the repository
 git clone https://github.com/Hermanlrx/BurstTron.git
 cd BurstTron
+#This downloads and extracts the data 
+curl -L -o /tmp/split_dataset.zip "https://zenodo.org/records/16759183/files/split_dataset.zip?download=1" || { echo "Dataset download failed"; exit 1; }     && unzip /tmp/split_dataset.zip -d BurstTron/     && rm /tmp/split_dataset.zip
 ```
 
 ```bash
@@ -120,11 +122,6 @@ To train your own model:
 1. Donwload data from Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16314688.svg)](https://doi.org/10.5281/zenodo.16314688)
 2. Ensure code is in the same directory as the data files
 3. Run training script (not included in this repo)
-
-## Hardware Requirements
-- **Recommended**: 16GB+ RAM, 8GB+ VRAM GPU
-- **Storage**: 2GB+ for model, depedencies and data
-
 
 
 
