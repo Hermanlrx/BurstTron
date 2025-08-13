@@ -14,7 +14,7 @@ A computer vision project using Detectron2 for object detection and classificati
 
 - Python 3.10
 - NVIDIA GPU with CUDA support (recommended)
-- Conda package manager (can adapt for other environments)
+- Conda package manager (adaptable for other environments)
 
 ## Installation
 
