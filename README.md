@@ -23,7 +23,7 @@ A computer vision project using Detectron2 for object detection and classificati
 ```bash
 # Clone the repository
 git clone https://github.com/Hermanlrx/BurstTron.git
-cd your-repo
+cd BurstTron
 ```
 
 ```bash
