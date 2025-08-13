@@ -121,7 +121,7 @@ To train your own model:
 
 1. Donwload data from Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16314688.svg)](https://doi.org/10.5281/zenodo.16314688)
 2. Ensure code is in the same directory as the data files
-3. Run training script (not included in this repo)
+3. Run training script
 
 
 
