@@ -52,8 +52,6 @@ pip3 install 'git+https://github.com/facebookresearch/detectron2.git'
 │     └── val/
 ├── TrainingOutput/    #If your are running the training script
 │   └── model_final.pth
-├── environment.yml
-├── requirements.txt
 └── README.md
 ```
 
