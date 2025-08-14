@@ -10,11 +10,6 @@
 A computer vision project using Detectron2 for object detection and classification of type III and groups of type III SRBs on radio data (Irish-LOFAR images).
 
 
-## Prerequisites
-
-- Python 3.10
-- NVIDIA GPU with CUDA support (recommended)
-- Conda package manager (adaptable for other environments)
 
 ## Installation
 
