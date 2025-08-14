@@ -18,8 +18,8 @@ if torch.cuda.is_available():
     torch.cuda.ipc_collect()
 
 gc.collect()
-os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:128'
-os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
+#os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:128'
+#os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
